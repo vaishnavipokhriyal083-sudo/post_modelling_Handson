@@ -1,4 +1,4 @@
-# post_modelling_Handson
+# Post Modelling Handson
 # Fashion MNIST Classification using ANN
 
 ## 📌 Project Overview
