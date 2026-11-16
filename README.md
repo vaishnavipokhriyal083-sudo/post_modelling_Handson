@@ -1,1 +1,131 @@
 # post_modelling_Handson
+# Fashion MNIST Classification using ANN
+
+## 📌 Project Overview
+
+This project focuses on building an Artificial Neural Network (ANN) to classify images from the Fashion MNIST dataset into 10 different clothing categories.
+
+The model is developed using Python, TensorFlow, and Keras. It learns patterns from grayscale clothing images and predicts the corresponding clothing category.
+
+## 🎯 Objectives
+
+- Understand image classification using Artificial Neural Networks.
+- Perform data preprocessing and normalization.
+- Build and train a deep neural network.
+- Monitor training performance using TensorBoard.
+- Implement Early Stopping to reduce overfitting.
+- Evaluate model performance on test data.
+- Save and load the trained model.
+
+## 📊 Dataset
+
+The project uses the Fashion MNIST dataset.
+
+- Training images: 60,000
+- Testing images: 10,000
+- Image dimensions: 28 × 28 pixels
+- Color format: Grayscale
+- Number of classes: 10
+
+### Fashion Categories
+
+1. T-shirt/top
+2. Trouser
+3. Pullover
+4. Dress
+5. Coat
+6. Sandal
+7. Shirt
+8. Sneaker
+9. Bag
+10. Ankle boot
+
+## 🛠️ Technologies Used
+
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- TensorFlow
+- Keras
+- TensorBoard
+- Jupyter Notebook
+
+## 🧠 Model Architecture
+
+The ANN model consists of the following layers:
+
+| Layer | Configuration |
+|---|---|
+| Input | 28 × 28 |
+| Flatten | Converts images into 1D vectors |
+| Dense Layer 1 | 512 neurons, ReLU |
+| Dense Layer 2 | 256 neurons, ReLU |
+| Dense Layer 3 | 128 neurons, ReLU |
+| Output Layer | 10 neurons, Softmax |
+
+### Model Compilation
+
+- Optimizer: Adam
+- Loss Function: Categorical Crossentropy
+- Evaluation Metric: Accuracy
+- Batch Size: 128
+- Maximum Epochs: 20
+
+## ⚙️ Project Workflow
+
+1. Import required libraries.
+2. Load the Fashion MNIST dataset.
+3. Explore and visualize sample images.
+4. Normalize pixel values between 0 and 1.
+5. Convert labels into categorical format.
+6. Split the dataset into training and validation sets.
+7. Build the ANN architecture.
+8. Compile and train the model.
+9. Implement TensorBoard and Early Stopping.
+10. Visualize training and validation accuracy and loss.
+11. Evaluate the model using test data.
+12. Generate predictions.
+13. Save and load the trained model.
+14. Verify model architecture, parameters, and weights.
+
+## 📈 Model Performance
+
+The trained model achieved the following results:
+
+| Metric | Result |
+|---|---:|
+| Test Accuracy | 88.35% |
+| Test Loss | 0.3233 |
+
+## 🔍 Key Features
+
+- Multi-layer Artificial Neural Network.
+- Image preprocessing and normalization.
+- Training and validation performance visualization.
+- TensorBoard training monitoring.
+- Early Stopping with best-weight restoration.
+- Prediction visualization.
+- Model serialization using the `.keras` format.
+- Verification of saved model parameters and weights.
+
+## 🚀 Future Improvements
+
+- Implement Convolutional Neural Networks (CNN).
+- Perform hyperparameter tuning.
+- Add a confusion matrix.
+- Evaluate precision, recall, and F1-score.
+- Improve classification accuracy.
+
+## 👩‍💻 Author
+
+**Vaishnavi**
+
+B.Tech Computer Science and Engineering
+
+Interested in Artificial Intelligence, Machine Learning, and Data Science.
+
+---
+
+⭐ If you find this project useful, consider giving the repository a star!
